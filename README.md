@@ -47,21 +47,23 @@ ___
 * Open desired Cognito function
 * Configure a test
    * For createCognitoUser
+      ```json
       {
         "userPoolId": "",
         "cognitoUsername": "",
         "tempPassWord": "",
         "userFullName": "",
         "userEmailAddress": ""
-      }
+      }```
    * For authCognitoUser
-      {
+      ```json
+     {
         "userPoolId": "",
         "clientId": "",
         "cognitoUsername": "",
         "tempPassWord": "",
         "newPassword": ""
-      }
+      }```
 * Click test
 * Wait for success message
 * Function does log to CloudWatch Logs, so you can debug should anything goes wrong.
